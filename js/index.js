@@ -27,6 +27,6 @@ let freeMusic = new Event('Free Music Show', ['music', 'free', 'outside']);
  
 billy.matchInterests(freeMusic);
 
-matchInterests(event) {
-  return event.keywords.some(word => this.interests.includes(word));
-}
+// matchInterests(event) {
+//   return event.keywords.some(word => this.interests.includes(word));
+// }
